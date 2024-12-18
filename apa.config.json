@@ -1,7 +1,7 @@
 {
-    "componentDir": "src/components",
+    "componentDir": "src/components/common",
     "framework": "react-ts",
-    "utilsDir": "src/utils",
-    "componentsAlias": "@/components",
-    "utilsAlias": "@/utils"
+    "utilsDir": "src/components/utils",
+    "componentsAlias": "@/components/common",
+    "utilsAlias": "@/components/utils"
 }
