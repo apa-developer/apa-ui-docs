@@ -1,0 +1,36 @@
+import { Plus, Trash, Edit, Search } from 'lucide-react'
+import Button from '@/components/Button'
+
+# Button
+
+---
+
+namanya juga button
+
+## Button Variants
+
+### Text Only
+
+<Button>Click Me</Button>
+
+### Icon Only
+
+<Button variant="iconOnly">
+    <Plus size={18} />
+</Button>
+
+<Button variant="iconOnly">
+    <Trash size={18} />
+</Button>
+
+### Text and Icon
+
+<Button variant="textAndIcon" iconPosition="left">
+    <Edit size={18} />
+    Edit
+</Button>
+
+<Button variant="textAndIcon" iconPosition="right">
+    Search
+    <Search size={18} />
+</Button>
